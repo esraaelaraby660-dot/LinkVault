@@ -1,0 +1,76 @@
+@font-face{
+  font-family: "Segoe UI Variable";
+  src:url("./assets/fonts/SegoeUIVF.ttf")
+  format("truetype");
+  font-weight: 300 700;
+  font-style: normal;
+}
+@import "tailwindcss";
+:root{
+  --text-primary: #0F172B;  /*logo,header ,headercard  */
+  --text-secondary: #62748E;  /* p,iconwithlink*/
+  --text-elementsidebar: #45556C; 
+  --text-title: #90A1B9;  /* placesearch, icons*/
+  --main-bordercolor: #E2E8F0; 
+  --bg-activesidebar: #FFFFFF;
+  --bg-body: #FFFFFF;
+  --bg-primary: #F8FAFC; /*bgSidebar, bgsearch*/
+ --btn-primary-bg: #0F172B;
+  --btn-primary-text: #FFFFFF;
+  --bg-auth-card: #FFFFFFF2;
+  --text-label-auth: #45556C;
+  --bg-input-auth: #FFFFFFCC;
+  --border-input-auth: #E2E8F0;
+  --bg-auth-badge: #EFF6FF;
+  --border-auth-badge: #BFDBFE;
+  --text-auth-badge: #1D4ED8;
+
+}
+.dark{
+  --text-primary: #F1F5F9;
+  --text-secondary: #90A1B9;
+  --text-elementsidebar: #90A1B9;
+  --text-title:#62748E;
+  --main-bordercolor: #1D293D;
+  --bg-activesidebar: #1D293D;
+  --bg-body: #020618;
+  --bg-primary: #0F172B;
+  --btn-primary-bg: #F1F5F9;
+  --btn-primary-text: #0F172B;
+  --bg-auth-card: #0F172BF2;
+  --text-label-auth: #CAD5E2;
+  --bg-input-auth: #1D293DCC;
+  --border-input-auth: #314158;
+  --bg-auth-badge: #16245666;
+  --border-auth-badge: #1C398E80;
+  --text-auth-badge: #8EC5FF;
+}
+@theme{
+  --font-segoe: "Segoe UI Variable", sans-serif;
+  --radius-home: 8px;
+  --radius-pages: 12px;
+  --radius-auth-card: 16px;
+  --text-h1-auth: 30px;
+  --text-body: 14px;
+  --text-caption: 12px;
+  --leading-19-5: 19.5;
+  --leading-16-5: 16.5;
+  --tracking-label-0-6: 0.6;
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-elementsidebar: var(--text-elementsidebar);
+  --color-text-title: var(--text-title);
+  --color-main-bordercolor: var(--main-bordercolor);
+  --color-bg-activesidebar: var(--bg-activesidebar);
+  --color-bg-body: var(--bg-body);
+  --color-bg-primary: var(--bg-primary);
+  --color-btn-primary-bg: var(--btn-primary-bg);
+  --color-btn-primary-text: var(--btn-primary-text);
+  --color-bg-auth-card: var(--bg-auth-card);
+  --color-text-label-auth: var(--text-label-auth);
+  --color-bg-input-auth: var(--bg-input-auth);
+  --color-border-input-auth: var(--border-input-auth);
+  --color-bg-auth-badge: var(--bg-auth-badge);
+  --color-border-auth-badge: var(--border-auth-badge);
+  --color-text-auth-badge: var(--text-auth-badge);
+}
